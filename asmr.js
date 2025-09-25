@@ -1,15 +1,15 @@
 // ASMR Trigger Sound Map
 const triggers = {
-	tapping: 'asmr_sounds/Tapping.mp3',
-	whispering: 'asmr_sounds/whispering.mp3',
-	crinkling: 'asmr_sounds/Crinkling.mp3',
-	brushing: 'asmr_sounds/Brushing.mp3',
-	water: 'asmr_sounds/Water.mp3',
-	typing: 'asmr_sounds/Typing.mp3',
-	page: 'asmr_sounds/Page.mp3',
-	scratching: 'asmr_sounds/Scratching.mp3',
-	mouth: 'asmr_sounds/Mouth.mp3',
-	hand: 'asmr_sounds/Marshmallo.mp3',
+	tapping: 'Tapping.mp3',
+	whispering: 'whispering.mp3',
+	crinkling: 'Crinkling.mp3',
+	brushing: 'Brushing.mp3',
+	water: 'Water.mp3',
+	typing: 'Typing.mp3',
+	page: 'Page.mp3',
+	scratching: 'Scratching.mp3',
+	mouth: 'Mouth.mp3',
+	hand: 'Marshmallo.mp3',
 };
 
 let continuousMode = false;
