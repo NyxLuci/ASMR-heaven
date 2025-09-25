@@ -1,4 +1,3 @@
-// ASMR Trigger Sound Map
 const triggers = {
 	tapping: 'Tapping.mp3',
 	whispering: 'whispering.mp3',
