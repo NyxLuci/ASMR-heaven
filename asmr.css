@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Montserrat:wght@400;700&display=swap');
+
+body {
+	background: radial-gradient(ellipse at top left, #ffb6e6 0%, #2d0036 100%),
+				linear-gradient(135deg, #ff00cc 0%, #2d0036 100%);
+	min-height: 100vh;
+	margin: 0;
+	font-family: 'Montserrat', 'Orbitron', Arial, sans-serif;
+	color: #ffe6fa;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	overflow-x: hidden;
+}
+
+h1 {
+	margin-top: 48px;
+	font-size: 3rem;
+	letter-spacing: 3px;
+	color: #ffb6e6;
+	font-family: 'Orbitron', 'Montserrat', Arial, sans-serif;
+	text-shadow:
+		0 0 24px #ff00cc,
+		0 0 48px #ffb6e6,
+		0 0 8px #fff;
+	background: linear-gradient(90deg, #ffb6e6 40%, #ff00cc 60%, #2d0036 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+}
+
+#asmr-buttons {
+	margin-top: 36px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	justify-content: center;
+	padding: 0 16px;
+}
+
+#asmr-buttons button {
+	background: linear-gradient(135deg, #ffb6e6 0%, #ff00cc 100%);
+	color: #2d0036;
+	border: 2px solid #ff00cc;
+	border-radius: 22px;
+	padding: 22px 40px;
+	font-size: 1.25rem;
+	font-family: 'Montserrat', 'Orbitron', Arial, sans-serif;
+	font-weight: 700;
+	letter-spacing: 2px;
+	box-shadow:
+		0 0 32px #ff00cc88,
+		0 2px 12px #2d003688,
+		0 0 8px #ffb6e6;
+	cursor: pointer;
+	transition: transform 0.15s, box-shadow 0.15s, background 0.2s, border 0.2s;
+	outline: none;
+	position: relative;
+	z-index: 1;
+}
+
+#asmr-buttons button::after {
+	content: '';
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	border-radius: 22px;
+	box-shadow: 0 0 40px 10px #ff00cc44, 0 0 80px 20px #ffb6e644;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+#asmr-buttons button:hover, #asmr-buttons button:focus {
+	background: linear-gradient(135deg, #ff00cc 0%, #ffb6e6 100%);
+	color: #fff;
+	transform: scale(1.09);
+	box-shadow:
+		0 0 64px #ff00cccc,
+		0 4px 24px #2d0036cc,
+		0 0 16px #ffb6e6;
+	border: 2px solid #ffe6fa;
+}
+
+#continuousBtn {
+	margin-top: 40px;
+	padding: 18px 36px;
+	border-radius: 20px;
+	background: linear-gradient(135deg, #ff00cc 0%, #ffb6e6 100%);
+	color: #fff;
+	font-size: 1.2rem;
+	font-family: 'Orbitron', 'Montserrat', Arial, sans-serif;
+	font-weight: 700;
+	letter-spacing: 2px;
+	box-shadow: 0 0 32px #ff00cc88, 0 2px 12px #2d003688;
+	border: 2px solid #ffb6e6;
+	cursor: pointer;
+	transition: background 0.2s, transform 0.15s, border 0.2s;
+	outline: none;
+	position: relative;
+	z-index: 1;
+}
+
+#continuousBtn::after {
+	content: '';
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	border-radius: 20px;
+	box-shadow: 0 0 40px 10px #ff00cc44, 0 0 80px 20px #ffb6e644;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+#continuousBtn:hover, #continuousBtn:focus {
+	background: linear-gradient(135deg, #ffb6e6 0%, #ff00cc 100%);
+	color: #2d0036;
+	transform: scale(1.07);
+	box-shadow: 0 0 64px #ff00cccc, 0 4px 24px #2d0036cc;
+	border: 2px solid #ffe6fa;
+}
